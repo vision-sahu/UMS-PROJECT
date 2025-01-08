@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.gogleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>registration</title>
+    <style>
+        * {
+
+            margin: 1;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "poppines", sans-serif;
+            background: transparent;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: url(bg.jpg) no-repeat;
+            background-size: cover;
+            background-position: center;
+
+
+        }
+
+        input {
+            background-color: rgb(217, 205, 205);
+            color: rgb(7, 63, 34);
+        }
+
+        button {
+            background-color: rgb(106, 210, 101);
+
+        }
+    </style>
+</head>
+
+<body>
+    
+
+    <form action="Newservlet1" method="post" name="f">
+        <label for="first"><b>Fist Name:</b></label><br><br>
+        <input type="text" id="first" name="first" required /><br><br>
+
+        <label for="last"><b>Last Name:</b></label><br><br>
+        <input type="text " id="last" name="last" required /><br><br>
+
+        <label for="email"><b> Email:</b></label><br><br>
+        <input type="email" id="email" name="email" required /><br><br>
+
+        <label for="password"><b>Password:</b></label><br><br>
+        <input type="text" id="password" name="password" required /><br><br>
+
+        <button id="loginButton" type="submit">submit</button>
+
+
+    </form>
+    
+</body>
+
+</html>
